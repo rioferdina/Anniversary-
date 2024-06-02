@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anniversary Kita</title>
+    <style>
+        /* CSS untuk menata letak dan latar belakang */
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #111; /* Warna latar belakang gelap */
+            font-family: Arial, sans-serif;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Tata letak otomatis dengan lebar minimum 150px */
+            gap: 20px;
+            padding: 20px;
+            overflow-y: auto; /* Mengaktifkan scroll vertikal jika diperlukan */
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #fff; /* Tambahkan garis tepi putih */
+        }
+        h1 {
+            color: #fff; /* Ubah warna teks menjadi putih */
+        }
+    </style>
+</head>
+<body>
+    <!-- Judul "Photo Gallery" dengan teks putih -->
+    <h1>5 months is not a short time sayangg</h1>
+
+    <!-- Bagian untuk menampilkan galeri foto -->
+    <div class="gallery">
+        <!-- Menampilkan 24 gambar dari photo1.jpg hingga photo24.jpg secara berurutan -->
+        <img src="photo1.jpg" alt="Photo 1">
+        <img src="photo2.jpg" alt="Photo 2">
+        <img src="photo3.jpg" alt="Photo 3">
+        <img src="photo4.jpg" alt="Photo 4">
+        <img src="photo5.jpg" alt="Photo 5">
+        <img src="photo6.jpg" alt="Photo 6">
+        <img src="photo7.jpg" alt="Photo 7">
+        <img src="photo8.jpg" alt="Photo 8">
+        <img src="photo9.jpg" alt="Photo 9">
+        <img src="photo10.jpg" alt="Photo 10">
+        <img src="photo11.jpg" alt="Photo 11">
+        <img src="photo12.jpg" alt="Photo 12">
+        <img src="photo13.jpg" alt="Photo 13">
+        <img src="photo14.jpg" alt="Photo 14">
+        <img src="photo15.jpg" alt="Photo 15">
+        <img src="photo16.jpg" alt="Photo 16">
+        <img src="photo17.jpg" alt="Photo 17">
+        <img src="photo18.jpg" alt="Photo 18">
+        <img src="photo19.jpg" alt="Photo 19">
+        <img src="photo20.jpg" alt="Photo 20">
+        <img src="photo21.jpg" alt="Photo 21">
+        <img src="photo22.jpg" alt="Photo 22">
+        <img src="photo23.jpg" alt="Photo 23">
+        <img src="photo24.jpg" alt="Photo 24">
+    </div>
+
+    <!-- Menambahkan elemen audio dengan autoplay -->
+    <audio controls autoplay>
+        <source src="audio.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+</body>
+</html>
